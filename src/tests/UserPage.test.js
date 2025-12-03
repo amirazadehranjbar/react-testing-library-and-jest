@@ -22,8 +22,7 @@ describe("user page" , ()=>{
 
         await user.click(button);
 
-        // Wait for the username to appear in the UserList table (not the input field)
-        // This queries the <td> element with data-testid="username" in UserList component
+
         const userName = await screen.findByTestId("username");
         const userEmail = await screen.findByTestId("useremail");
         
