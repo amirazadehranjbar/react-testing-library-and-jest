@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+.button {
+    @apply bg-slate-500 text-white font-bold py-1 rounded-md hover:scale-110 cursor-pointer;
+}
+
+.input {
+    @apply border border-gray-700 py-1 rounded-md pl-2;
+}
